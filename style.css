@@ -1,3 +1,14 @@
 .hide {
   display: none;
 }
+
+.footer-text {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color:white;
+  background-color: gray;
+
+.jumbotron {
+  
+}

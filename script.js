@@ -199,8 +199,7 @@ function searchCity(cityName) {
   $.ajax({
     url: queryURL,
     method: "GET",
-  })
-  .then(function (response) {
+  }).then(function (response) {
     var result = response;
     console.log(result);
     city = result.name.trim();
